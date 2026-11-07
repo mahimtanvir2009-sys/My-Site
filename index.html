@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmed Mahim</title>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Hind Siliguri', sans-serif; color: #1a2540; background: #f6f8fc; line-height: 1.7; }
+  header { background: #12264f; color: #fff; padding: 14px 20px; position: sticky; top: 0; z-index: 10; }
+  nav { max-width: 1000px; margin: auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+  nav .logo { font-weight: 700; font-size: 1.3rem; }
+  nav a { color: #fff; text-decoration: none; margin-left: 16px; font-size: 1rem; }
+  nav a:hover { color: #ffb703; }
+  .hero { background: linear-gradient(135deg, #12264f, #1d4e89); color: #fff; text-align: center; padding: 80px 20px; }
+  .hero h1 { font-size: 2.8rem; margin-bottom: 10px; }
+  .hero p { font-size: 1.2rem; opacity: 0.9; }
+  .buttons { margin-top: 28px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .btn { background: #ffb703; color: #12264f; padding: 12px 24px; border-radius: 30px; text-decoration: none; font-weight: 600; }
+  .btn.alt { background: transparent; color: #fff; border: 2px solid #fff; }
+  section { max-width: 1000px; margin: auto; padding: 50px 20px; }
+  section h2 { font-size: 1.8rem; margin-bottom: 20px; color: #12264f; border-left: 5px solid #ffb703; padding-left: 12px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+  .card { background: #fff; border-radius: 14px; padding: 20px; box-shadow: 0 3px 12px rgba(0,0,0,0.08); }
+  .card h3 { margin-bottom: 8px; color: #1d4e89; }
+  .card a { color: #1d4e89; font-weight: 600; text-decoration: none; }
+  .about p { font-size: 1.1rem; }
+  footer { background: #12264f; color: #fff; text-align: center; padding: 24px 20px; }
+  footer a { color: #ffb703; text-decoration: none; margin: 0 8px; }
+  @media (max-width: 600px) { .hero h1 { font-size: 2.1rem; } nav a { margin-left: 10px; font-size: 0.95rem; } }
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">Ahmed Mahim</div>
+    <div>
+      <a href="#blog">ব্লগ</a>
+      <a href="#videos">ভিডিও</a>
+      <a href="#about">আমার সম্পর্কে</a>
+      <a href="#contact">যোগাযোগ</a>
+    </div>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Ahmed Mahim</h1>
+  <p>ইতালি থেকে আমার গল্প, ভাবনা আর ভিডিও</p>
+  <div class="buttons">
+    <a class="btn" href="#videos">ভিডিও দেখুন</a>
+    <a class="btn alt" href="#blog">ব্লগ পড়ুন</a>
+    <a class="btn alt" href="https://www.facebook.com/" target="_blank">ফেসবুক পেজে যান</a>
+  </div>
+</div>
+
+<section id="blog">
+  <h2>সাম্প্রতিক ব্লগ</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>ব্লগের শিরোনাম ১</h3>
+      <p>এখানে আপনার লেখার ছোট একটি সারাংশ লিখুন।</p>
+      <a href="#">আরও পড়ুন</a>
+    </div>
+    <div class="card">
+      <h3>ব্লগের শিরোনাম ২</h3>
+      <p>এখানে আপনার লেখার ছোট একটি সারাংশ লিখুন।</p>
+      <a href="#">আরও পড়ুন</a>
+    </div>
+    <div class="card">
+      <h3>ব্লগের শিরোনাম ৩</h3>
+      <p>এখানে আপনার লেখার ছোট একটি সারাংশ লিখুন।</p>
+      <a href="#">আরও পড়ুন</a>
+    </div>
+  </div>
+</section>
+
+<section id="videos">
+  <h2>জনপ্রিয় ভিডিও</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>ভিডিওর নাম ১</h3>
+      <p>ভিডিওর সংক্ষিপ্ত বর্ণনা।</p>
+      <a href="#" target="_blank">ভিডিও দেখুন</a>
+    </div>
+    <div class="card">
+      <h3>ভিডিওর নাম ২</h3>
+      <p>ভিডিওর সংক্ষিপ্ত বর্ণনা।</p>
+      <a href="#" target="_blank">ভিডিও দেখুন</a>
+    </div>
+    <div class="card">
+      <h3>ভিডিওর নাম ৩</h3>
+      <p>ভিডিওর সংক্ষিপ্ত বর্ণনা।</p>
+      <a href="#" target="_blank">ভিডিও দেখুন</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <h2>আমার সম্পর্কে</h2>
+  <p>আসসালামু আলাইকুম, আমি Ahmed Mahim। বর্তমানে ইতালিতে থাকি। নতুন দেশে নতুন মানুষ, নতুন সংস্কৃতি আর নতুন অভিজ্ঞতার গল্প লিখতে এবং ভিডিও বানাতে আমার ভালো লাগে। আমার লক্ষ্য হলো আপনাদের সঙ্গে সেই অভিজ্ঞতাগুলো সহজ ভাষায় ভাগ করে নেওয়া।</p>
+</section>
+
+<section id="contact">
+  <h2>যোগাযোগ</h2>
+  <div class="card">
+    <p>ফেসবুক পেজ: <a href="https://www.facebook.com/" target="_blank">Ahmed Mahim</a></p>
+    <p>ইমেইল: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Ahmed Mahim</p>
+  <p><a href="https://www.facebook.com/" target="_blank">ফেসবুক</a> | <a href="mailto:your-email@example.com">ইমেইল</a></p>
+</footer>
+
+</body>
+</html>
